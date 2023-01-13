@@ -1,7 +1,7 @@
 //SPDX-License-Identifier:UNLICENSED
 pragma solidity >=0.7.0 < 0.9.0;
 contract solidemo{
-    address  admin;
+    address public admin;
     address payable[] public participants;
     constructor(){
         admin=msg.sender;
